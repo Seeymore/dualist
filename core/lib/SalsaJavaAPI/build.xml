@@ -1,0 +1,15 @@
+<project name="SalsaJavaAPI" basedir=".">
+
+
+  <property name="src" location="src"/>
+  <property name="build" location="class"/>
+
+
+  <target name="compile">
+    <javac srcdir="${src}" destdir="${build}">
+  
+    </javac>  
+  </target>
+
+
+</project>

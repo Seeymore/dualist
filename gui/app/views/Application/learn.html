@@ -25,7 +25,7 @@
 <!-- feature queries -->
 <div class="ui-layout-east featurePane">
     *{ for instance-only interfaces }*
-    #{if mode == 'inst' || mode == 'passive'}
+    #{if mode == 'inst' || mode == 'passive' || mode == 'qbc'}
     <p id="expMessage">&lArr; You only label instances (left) in this experiment.</p>
     #{/if}
     *{ for the "grid" per-label dual interface }*
